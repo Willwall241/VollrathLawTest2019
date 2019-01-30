@@ -1,3 +1,9 @@
+html,
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 #logo {
   float: left;
 }
@@ -11,4 +17,16 @@
   /* width: 70%; */
   /* align-content: flex-start; */
   margin: 0px;
+}
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #f5f5f5;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.site {
+  flex: 1;
 }
