@@ -1,3 +1,8 @@
+div {
+  outline: 1px solid #999; 
+}
+
+
 html,
 body {
   display: flex;
