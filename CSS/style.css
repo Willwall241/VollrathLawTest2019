@@ -3,7 +3,17 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image: url(../Images/legal-background.jpg);
 }
+
+.header {
+  margin: 0 15%;
+}
+
+.jumbo-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 #logo {
   float: left;
 }
@@ -20,9 +30,9 @@ body {
 }
 
 .footer {
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: fit-content;
-  background-color: #f5f5f5;
   text-align: center;
   flex-shrink: 0;
 }
