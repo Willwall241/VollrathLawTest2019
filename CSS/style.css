@@ -1,6 +1,6 @@
-div {
+/*div {
   outline: 1px solid black;
-}
+}*/
 
 html,
 body {
@@ -32,4 +32,9 @@ hr {
 main {
   flex: 1;
   margin: auto;
+}
+
+form {
+
+  background-color: #004993 !important;
 }
