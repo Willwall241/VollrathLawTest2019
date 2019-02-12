@@ -21,7 +21,7 @@ hr {
 }
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: fit-content;
   text-align: center;
@@ -35,6 +35,5 @@ main {
 }
 
 form {
-
   background-color: #004993 !important;
 }
