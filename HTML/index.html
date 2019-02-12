@@ -10,6 +10,9 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+
+    <!-- Link to Logo image -->
+    <link rel="icon" href="../Images/Vollrath_Law_logo.png" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <title>Vollrath Law | Oviedo FL Estate Lawyers</title>
   </head>
@@ -52,8 +55,22 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Practice Areas</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown08"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Practice Areas</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown08">
+                <a class="dropdown-item" href="#">Family Law</a>
+                <a class="dropdown-item" href="#">Guardianship</a>
+                <a class="dropdown-item" href="#">Wills & Trust</a>
+                <a class="dropdown-item" href="#">Probate</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -80,13 +97,13 @@
         <div class="container">
           <div class="row">
             <!--Cards-->
-            <div class="col-md-6">
+            <div class="col-sm-6 ">
               <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                       <button
-                        class="btn btn-link"
+                        class="btn btn-link "
                         type="button"
                         data-toggle="collapse"
                         data-target="#collapseOne"
@@ -137,7 +154,16 @@
                     aria-labelledby="headingTwo"
                     data-parent="#accordionExample"
                   >
-                    <div class="card-body"></div>
+                    <div class="card-body">
+                      Many Americans are under the mistaken belief that estate
+                      planning is only for the wealthy. At Vollrath Law, we
+                      believe that everyone needs a Will, irrespective of the
+                      amount of money they have or property they own. The
+                      document allows you to take control in planning your
+                      estate. You and your loved ones are entitled to the peace
+                      of mind that comes with proactive steps that clarify your
+                      wishes and goals.
+                    </div>
                   </div>
                 </div>
                 <div class="card">
@@ -161,13 +187,22 @@
                     aria-labelledby="headingThree"
                     data-parent="#accordionExample"
                   >
-                    <div class="card-body"></div>
+                    <div class="card-body">
+                      Many Americans are under the mistaken belief that estate
+                      planning is only for the wealthy. At Vollrath Law, we
+                      believe that everyone needs a Will, irrespective of the
+                      amount of money they have or property they own. The
+                      document allows you to take control in planning your
+                      estate. You and your loved ones are entitled to the peace
+                      of mind that comes with proactive steps that clarify your
+                      wishes and goals.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <!-- Form -->
-            <div class="col-md-6">
+            <div class="col-sm-6 col-lg-6">
               <form class="rounded p-5">
                 <h2>Get Answers To Your Legal Questions</h2>
                 <div class="form-group">
@@ -235,8 +270,8 @@
     crossorigin="anonymous"
   ></script>
   <script>
-  $('.btn').mouseover(function(){
-    $( this ).click();
-});
+    $('.btn').mouseover(function() {
+      $(this).click();
+    });
   </script>
 </html>
